@@ -10,7 +10,8 @@ export default function NavItem({ item }: NavItemProps) {
     <NavLink
       to={item.path}
       className={({ isActive }) =>
-        `flex items-center gap-3 p-2.5 rounded-lg transition-colors w-full text-left font-medium cursor-pointer text-md
+        `flex items-center gap-3 p-2.5 rounded-lg transition-colors w-full text-left font-medium 
+      cursor-pointer text-md md:text-sm tracking-tight
         ${
           isActive
             ? "bg-sidebar-active text-white"
@@ -18,7 +19,7 @@ export default function NavItem({ item }: NavItemProps) {
         }`
       }
     >
-      <span className="size-4.5 flex items-center justify-center">
+      <span className="size-4.5 md:size-4 flex items-center justify-center">
         {item.icon}
       </span>
       {item.label}

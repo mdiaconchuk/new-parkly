@@ -1,23 +1,17 @@
-import { LayoutDashboard, CircleHelp, Cog } from 'lucide-react'
+import { LuLinkedin, LuGithub, LuMail} from "react-icons/lu";
 import type { FooterItemType } from "../types";
 
 export const FOOTER_ITEMS: FooterItemType[] = [
  {
     href: '/',
-    icon: <LayoutDashboard/>,
-    normalColor: 'text-slate-100',
-    hoverColor: 'text-slate-800'
+    icon: <LuLinkedin/>
  },
  {
     href: '/',
-    icon: <CircleHelp/>,
-    normalColor: 'text-blue-500',
-    hoverColor: 'text-blue-800'
+    icon: <LuGithub/>
  },
  {
     href: '/',
-    icon: <Cog/>,
-    normalColor: 'text-red-500',
-    hoverColor: 'text-red-800'
+    icon: <LuMail/>
  }
 ]

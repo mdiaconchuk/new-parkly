@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 export default function Sidebar() {
   return (
-    <aside className="w-64 h-full bg-sidebar text-foreground flex flex-col">
+    <aside className="w-64 md:w-58 h-full bg-sidebar text-foreground flex flex-col">
 
       {/* Logo */}
       <div className="px-6 mb-8 mt-8 scale-80 transition-transform">

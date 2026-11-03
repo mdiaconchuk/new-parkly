@@ -9,6 +9,4 @@ export interface NavItemType {
 export interface FooterItemType {
   href: string;
   icon: React.ReactNode;
-  normalColor: string;
-  hoverColor: string;
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import type { FooterItemType } from "../../types";
 
 interface FooterItemProps {
@@ -11,7 +10,8 @@ export default function FooterItem({ item }: FooterItemProps) {
       href={item.href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`transition-opacity hover:opacity-80 flex items-center justify-center w-6 h-6 ${item.normalColor} hover:${item.hoverColor}`}
+      className="transition-opacity hover:text-muted flex items-center justify-center size-6 text-xl
+      text-sidebar-text"
     >
       {item.icon}
     </a>

@@ -8,8 +8,8 @@ export const MENU_ITEMS: NavItemType[] = [
     icon: <LayoutDashboard/>, 
   },
   {
-    label: 'Configuration',
-    path: '/config',
+    label: 'Settings',
+    path: '/settings',
     icon: <Cog/>,
   },
   {
