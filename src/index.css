@@ -11,6 +11,7 @@
   --color-surface: #ffffff;
   --color-surface-muted: #edf3fa;
   --color-highlight: #e3efff;
+  --color-icon-highlight: #c8dfff;
 
   /* Barra lateral */
   --color-sidebar: #132a4a;
@@ -19,8 +20,8 @@
 
   /* Textos */
   --color-foreground: #1a2e49;
-  --color-muted: #6f8198;
-
+  --color-card-title: #58708e;
+  --color-muted: #6f8198;  
   /* Bordes */
   --color-border: #dfe7f1;
   --color-focus: #5086ce;

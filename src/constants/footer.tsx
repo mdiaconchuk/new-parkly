@@ -1,4 +1,5 @@
-import { LuLinkedin, LuGithub, LuMail} from "react-icons/lu";
+import { LuLinkedin, LuGithub } from "react-icons/lu";
+import { MdOutlineWorkOutline } from "react-icons/md";
 import type { FooterItemType } from "../types";
 
 export const FOOTER_ITEMS: FooterItemType[] = [
@@ -12,6 +13,6 @@ export const FOOTER_ITEMS: FooterItemType[] = [
  },
  {
     href: '/',
-    icon: <LuMail/>
+    icon: <MdOutlineWorkOutline/>
  }
 ]

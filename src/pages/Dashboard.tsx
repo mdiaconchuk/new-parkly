@@ -1,15 +1,20 @@
-import Card from "../components/ui/Card"
-import { PageHeader } from "../components/ui/PageHeader"
+import Arrivals from "../components/dashboard/Arrivals";
+import Occupancy from "../components/dashboard/Occupancy";
+import Rates from "../components/dashboard/Rates";
+import { PageHeader } from "../components/ui/PageHeader";
 
 export default function Dashboard() {
   return (
     <div>
-      <PageHeader title="Dashboard" description="Get an overview of your activity and key insights."/>
+      <PageHeader
+        title="Dashboard"
+        description="Get an overview of your activity and key insights."
+      />
       <div className="flex gap-x-5 *:w-1/3">
-        <Card/>
-        <Card/>
-        <Card/>
+        <Occupancy />
+        <Arrivals />
+        <Rates />
       </div>
     </div>
-  )
+  );
 }
